@@ -17,4 +17,11 @@ pip install -r requirements.txt
 
 
 API request examples
-
+base API url :
+https://demo-moviedatabase.herokuapp.com/api/movies
+filter by name (full text search)
+https://demo-moviedatabase.herokuapp.com/api/movies?name=Cabiria
+filter by movie name and director name
+https://demo-moviedatabase.herokuapp.com/api/movies?name=Wizard&director=Victor
+filter by genre name
+https://demo-moviedatabase.herokuapp.com/api/movies?genre=family
