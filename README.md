@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 
 ```
-
+Admin url : https://demo-moviedatabase.herokuapp.com/admin/
 
 API request examples
 base API url :
