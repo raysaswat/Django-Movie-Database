@@ -10,9 +10,8 @@ It uses data from imdb.json
 C:\Users\sray\Desktop\fynd\movie-master\movie-master>python -m venv myvenv
 C:\Users\sray\Desktop\fynd\movie-master\movie-master>myvenv\Scripts\activate
 pip install -r requirements.txt
-./manage.py migrate
-./manage.py runserver 
-./manage.py populate_movies
+python manage.py migrate
+python manage.py runserver 
 ```
 
 
